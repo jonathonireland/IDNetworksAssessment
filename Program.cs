@@ -54,6 +54,7 @@ while (@continue == 1);
 // Print values in list - for
 for (int i = 0; i < ages.Count; i++)
 {
+    Console.WriteLine("\n");
     Console.WriteLine($"(Name){people[i]}\n");
     Console.WriteLine($"(Age){ages[i]}\n");
     Console.WriteLine($"(City){cities[i]}\n");
